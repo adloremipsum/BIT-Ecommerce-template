@@ -108,15 +108,15 @@ footer .copyright {
 }
 
 /* ====================
-    - Media queries
-    
-      xs   <  576px
-      sm   ≥  576px
-      md   ≥  768px
-      lg   ≥  992px
-      xl   ≥  1200px
-      xxl  ≥  1400px
-    ==================== */
+  - Media queries
+  
+    xs   <  576px
+    sm   ≥  576px
+    md   ≥  768px
+    lg   ≥  992px
+    xl   ≥  1200px
+    xxl  ≥  1400px
+  ==================== */
 
 @media screen and (max-width: 992px) {
 }
