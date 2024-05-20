@@ -14,7 +14,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/dashboardHome.css" />
   </head>
   <body>
     <nav
@@ -22,7 +22,7 @@
     >
       <div class="container-fluid">
         <a href="#" class="navbar-brand d-flex w-50 mr-auto">
-          <strong>BIT Shop</strong>
+          <strong>Admin BIT Shop</strong>
         </a>
         <button
           class="navbar-toggler"
@@ -40,6 +40,17 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Products</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Orders</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Users</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -48,81 +59,93 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Categories
+                Profile
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Register</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-bag"></i></a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <main>
-      <section id="login">
-        <div class="container py-5">
-          <div class="row">
-            <div
-              class="col-12 col-sm-10 col-md-8 col-lg-6 offset-sm-1 offset-md-2 offset-lg-3"
-            >
-              <div class="section-text-combo">
-                <h2>Ad lorem ipsum</h2>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Corrupti accusantium voluptas voluptatibus perferendis velit
-                  nostrum qui repellendus laboriosam.
-                </p>
-              </div>
-              <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label"
-                    >Email</label
-                  >
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
-                  />
-                  <small class="error">Ad lorem ipsum</small>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label"
-                    >Password</label
-                  >
-                  <input
-                    type="password"
-                    class="form-control"
-                    id="exampleInputPassword1"
-                  />
-                  <small class="error">Ad lorem ipsum!</small>
-                </div>
-
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-            </div>
+    <main class="pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>User admin</h1>
+            <table class="table table-striped table-hover">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">First</th>
+                  <th scope="col">Last</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
-      </section>
+      </div>
     </main>
+    <footer class="pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-3 mb-4">
+            <strong>BIT Shop</strong>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <ul>
+              <li class="list-title">Title 1</li>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+              <li>Item 4</li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <ul>
+              <li class="list-title">Title 1</li>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+              <li>Item 4</li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <ul>
+              <li class="list-title">Title 1</li>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+              <li>Item 4</li>
+            </ul>
+          </div>
+          <div class="col-12 pt-5 text-center">
+            <p class="copyright">© Bogotá Institute of Technology 2024</p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <footer class="pt-5">
       <div class="container">
         <div class="row">
